@@ -8,4 +8,4 @@ class Controller_Home extends Controller {
     $this->response->body($view);
 	}
 
-} // End Welcome
+}

@@ -4,7 +4,6 @@ class Model_REST_Todo extends ORM implements REST_Method_Get, REST_Method_Put, R
  {
 
   /**
-   * Returns test data
    *
    * @param Rest $rest
    */
@@ -27,7 +26,6 @@ class Model_REST_Todo extends ORM implements REST_Method_Get, REST_Method_Put, R
       }
 
       return $data;
-
     }
     else
     {
